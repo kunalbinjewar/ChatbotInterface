@@ -1,0 +1,14 @@
+<!-- routerLink="/chatbot" -->
+<button (click)="OpenChat()" >Open Chat</button>
+
+<div class="client-container">
+    <button class="open-chat-button" (click)="openChatbox()">Open Chat</button>
+    
+  
+    <div class="chatbox" *ngIf="isChatboxOpen">
+      <img src="../assets/chatbot.png" alt="Logo" class="Chatbot">
+  
+      <!-- Chat content goes here -->
+    </div>
+  </div>
+  
